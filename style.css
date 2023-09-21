@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-image: url(./navbar.png);
+    background-size: cover; 
+}
+
+ /* #background-video{
+    background-repeat:no-repeat;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}  */
+
+
+#faq{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer{
+    background-image: url("footer.png");
+    background-size: cover;
+}
