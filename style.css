@@ -19,21 +19,33 @@ body{
     z-index: -1;
 }  */
 
-
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 771px) {
     .FAQ img{
-        margin-top: 100px;
+        margin-top: 200px;
     }
 }
 
-@media screen and (min-width: 630px){
-    .FAQ img{
-        margin-top: 50px;
-    }
+@media screen and (max-width: 390px) {
+  .FAQ img{
+      margin-top: 90px;
+  }
 }
 
+#faq{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.buton{
+    font-size: medium;
+}
 
 .footer{
     background-image: url("footer.png");
+    background-color: #1f0567;
     background-size: cover;
 }
+
